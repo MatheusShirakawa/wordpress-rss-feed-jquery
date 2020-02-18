@@ -1,4 +1,5 @@
-Basic script javascript using jquery to use the RSS Feed from wordpress 
+## Basic script javascript using jquery to use the RSS Feed from wordpress 
+### wordpress-rss-feed-jquery
 
 - Remember to enable the cross domain access in wordpress custom functions file
 
@@ -25,5 +26,3 @@ add_filter('the_excerpt_rss', 'featuredtoRSS');
 add_filter('the_content_feed', 'featuredtoRSS');
 
 ```
-
-# wordpress-rss-feed-jquery
